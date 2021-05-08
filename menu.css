@@ -1,0 +1,357 @@
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    height: 100vh;
+    width: 100%;
+    background-image: url('food7.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 35px;
+    z-index: 9;
+    position: relative;
+}
+.nav a:hover{
+    color: #c5b358;
+}
+.nav a:active{
+    color: #c5b358;
+}
+.section1 a{
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 13px;
+    padding: 0 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0px 30px;
+    z-index: 2;
+}
+.front{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.rale{
+    font-family: raleway;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 10px;
+    padding-top: 50px;
+}
+.front hr{  
+    border: 0px;
+    height: 2px;
+    background-color: #c5b358;
+    width: 120px;
+}
+.alex{
+    font-family: 'Alex Brush', cursive;
+    font-size: 46px;
+    color: #ffffff;
+    font-weight: lighter; 
+    margin-top: 20px;  
+}
+.menu{
+    height: 58px;
+    width: 160px;
+    background-color: #c5b358;
+    color: white;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 13px;
+    padding: 0 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: -40px;
+    border: 0px;
+}
+.front h1{
+    font-family: raleway;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 10px;
+    padding-top: 50px;
+}
+.btn{
+    text-align: center;
+}
+.button:hover{
+    background-color: white;
+    color: #c5b358;
+    cursor: pointer;
+}
+.line{  
+    border: 0px;
+    height: 2px;
+    background-color: #c5b358;
+    width: 120px;
+}
+.section1 h2{
+    font-family: raleway;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+.box2{
+    height: 55px;
+    width: 450px;
+    background-color: rgb(0, 0, 0, 0.75);
+    margin: auto;
+}
+.logo{
+    height: 116px;
+    width: 500px;
+    background-color: rgb(0, 0, 0, 0.75);
+    margin: auto;
+}
+.m{
+    margin-top: 100px;
+}
+
+/* section2 */
+.way{
+    text-align: center;
+    font-family: raleway;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    letter-spacing: 10px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.brush{
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+    font-size: 36px;
+    color: #999;
+    font-weight: lighter; 
+    margin-top: 20px; 
+}
+.foodmenu{
+    height: 850px;
+    width: 1080px;
+    border: 3px solid #c5b358;
+    margin: auto;
+}
+.food{
+    height: 836px;
+    width: 1068px;
+    border: 1px solid #c5b358;
+    margin: auto;
+    margin-top: 6px; 
+    background-color: #ffffff;   
+}
+.top{
+    width: 100%;
+}
+.top hr{
+    margin-top: 80px;
+    width: 90%;
+}
+
+.cap{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: -45px;
+    background-color: white;
+    height: 84px;
+    width: 134px;
+}
+.list{
+    display: flex;
+    cursor: default;
+}
+.snacks , .drinks{
+    margin: 10px 60px;
+    width: 80%;
+}
+.list li:hover{
+    color: #ccae15;
+    cursor: default;
+}
+.list h2{
+    font-family: 'Alex Brush', cursive;
+    font-size: 39px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+ul{
+    cursor: default;
+    list-style-type: none;
+    padding-left: 0%;
+}
+.dot{
+    border: 0.5px dotted rgb(112, 112, 112);
+    margin-top:4px
+}
+.h{
+    font-family: raleway;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    line-height: 20px;
+    color: rgb(49, 49, 49);
+
+}
+.s{
+    font-family: raleway;
+    text-transform: none;
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 30px;
+}
+
+/* section3 */
+.chef{
+    height: 500px;
+    /* width: 70%; */
+    margin: auto;
+    margin-top: 100px;
+}
+.section3{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.section3 h2{
+    margin-top: 70px;
+    font-family: raleway;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.row img{
+    height: 400px;
+    margin-top: 100px;
+}
+.para{
+    font-family: raleway;
+    color: #999;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+/* banner */
+.banner{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.banner img{
+    width: 100%;
+}
+
+
+
+/* footer */
+.footer{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+}
+.icons{
+    padding: 10px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 13px;
+    cursor: default;
+    font-weight: lighter;
+}
+.icons i:hover{
+    color: #c5b358;
+    cursor: pointer;
+}
+.copy{
+    font-family: ubuntu;
+    font-size: 24px;
+    color: white;
+}
+.links{
+    display: flex;
+}
+
+.footer h4{   
+    color: white;
+    font-family: raleway;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0px 20px;
+    text-align: left;
+    margin-left: 0px;
+    line-height: 23px;
+}
+
+.footer h5{   
+    color: white;
+    font-family: raleway;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0px 20px;
+    text-align: left;
+    margin-left: 0px;
+    line-height: 23px;
+}
+.footer h3{   
+    color: white;
+    font-family: raleway;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0px 20px;
+    text-align: left;
+    margin-left: 0px;
+}
+.footer p{
+    font-family: raleway;
+    font-size:15px;
+    color: rgb(189, 189, 189);
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.first{
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 20%;
+}
+
+.copy p{
+    margin-bottom: 20px ;
+}
+.map{
+    margin-top: 20px;
+    height: 200px;
+    width: 350px;
+    overflow: hidden;
+}
+.copyright{
+    font-family: raleway;
+    font-size: 15px;
+    text-align: center !important;
+    color: white;
+    text-transform: none !important;
+    margin-top: 20px !important;
+}
